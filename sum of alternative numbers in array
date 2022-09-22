@@ -1,0 +1,13 @@
+// array declaration 
+let A:number[]= [3,2,5,7,9] ;
+//declaring variable sum of alternative number 
+let sum:number = 0;
+// iterate 
+A.forEach((elem,ks) => {
+    let B:boolean= ks%2 == 0 ? true:false ;
+ if(B)
+  {
+    sum  = sum+ elem
+  }
+  console.log(sum)
+})
